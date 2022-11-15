@@ -1,0 +1,35 @@
+-   Download the latest WordPress installation package with the wget command.
+    -   wget [https://wordpress.org/latest.tar.gz](https://wordpress.org/latest.tar.gz)
+-   Unzip and unarchive the installation package
+    -   tar -xzf latest.tar.gz
+-   Create database account
+    -   CREATE USER `wordpress-user`@'localhost' IDENTIFIED BY 'your_strong_password';
+-   Create database
+    -   CREATE DATABASE `wordpress-db`;
+-   Grant privileges
+    -   GRANT ALL PRIVILEGES ON _._ TO "wordpress-user"@"localhost";
+-   Flush Privileges
+-   Create and edit the wp-config.php file
+    -   cp wordpress/wp-config-sample.php wordpress/wp-config.php
+-   Update wp-config.php
+    -   sudo nano wordpress/wp-config.php
+    -   Add
+        -   define('FS_METHOD', 'direct');
+    -   Update
+        -   define('DB_NAME', 'wordpress-db');
+        -   define('DB_USER', 'wordpress-user');
+        -   define('DB_PASSWORD', 'your_strong_password');
+-   Make Directory and Copy Files
+    -   mkdir /var/www/html/blog
+    -   cp -r wordpress/* /var/www/html/blog/
+-   Edit httpd.conf
+    -   sudo nano /etc/httpd/conf/httpd.conf
+    -   Change AllowOverride under <Directory “/var/www/html”> from None to All
+-   Update file permissions for Apache Web Server
+    -   sudo chown -R apache /var/www
+    -   sudo chgrp -R apache /var/www
+    -   sudo chmod 2775 /var/www
+    -   find /var/www -type d -exec sudo chmod 2775 {} ;
+    -   find /var/www -type f -exec sudo chmod 0664 {} ;
+-   Restart web server
+    -   sudo systemctl restart httpd

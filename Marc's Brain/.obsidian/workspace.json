@@ -1,0 +1,152 @@
+{
+  "main": {
+    "id": "cf685361e6646a70",
+    "type": "split",
+    "children": [
+      {
+        "id": "015ff0bdb1198d98",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "40f73f3033fb56c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tableau.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6aa0a2dc48c65a98",
+    "type": "split",
+    "children": [
+      {
+        "id": "66d355f57fb9345f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "24927d75c87c6e5a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "302df8fc9c292b43",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "29a9981923568661",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fddc58cf332e20d4",
+    "type": "split",
+    "children": [
+      {
+        "id": "0629d31ab4f9b575",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a4f6c12b037631f4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Tableau.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7fce55bdb72f6d45",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Tableau.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "537424d3a7dc4bd0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "0ebe10e359ef8485",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Tableau.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "40f73f3033fb56c8",
+  "lastOpenFiles": [
+    "Join data sources with inconsistent field names.md",
+    "Tableau.md",
+    "Reorder fields in visualization.md",
+    "Images/Pasted image 20221115160558.png",
+    "Clean up source data.md",
+    "Cheatsheet for AWS.md",
+    "Images/Pasted image 20221115154811.png",
+    "Join Related Datasource.md",
+    "2022-11-05.md",
+    "Lets go.md"
+  ]
+}
